@@ -11,6 +11,13 @@ buildscript {
     }
 }
 
+plugins {
+    id "com.jfrog.bintray" version "1.7"
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
 apply plugin: 'idea'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
@@ -102,11 +109,48 @@ processResources
     }
 }
 
+jar {
+    include "com/jaquadro/minecraft/gardenstuff/**"
+    include "assets/**"
+    include "mcmod.info"
+    include "pack.mcmeta"
+}
+
 task deobfJar(type: Jar) {
     from sourceSets.main.output
-    classifier = 'dev'
+    classifier = 'deobf'
 }
 
 artifacts {
     archives deobfJar
+    archives sourceJar
+    archives jar
+}
+
+publishing.publications {
+    StorageDrawers(MavenPublication) {
+        groupId = project.group
+        artifactId = project.archivesBaseName
+        version = project.version
+        artifact deobfJar
+        artifact sourceJar
+        artifact jar
+    }
+}
+
+bintrayUpload.dependsOn build
+
+bintray {
+    user = System.getenv('BINTRAY_USER')
+    key = System.getenv('BINTRAY_KEY')
+    publications = ['GardenStuff']
+    publish = true
+    pkg {
+        repo = 'dev'
+        name = 'gardenstuff'
+        version {
+            name = project.version
+            released = new Date()
+        }
+    }
 }
