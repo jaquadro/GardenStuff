@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "gardenstuff:metal_fence", "data": 2 }
+    ],
+    "result": { "item": "gardenstuff:metal_fence", "data": 3 }
+}

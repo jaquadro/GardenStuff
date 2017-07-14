@@ -1,0 +1,153 @@
+{
+    "parent": "block/block",
+    "display": {
+        "gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1, 1, 1 ]
+        }
+    },
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "gardenstuff:blocks/wrought_iron",
+        "metal": "gardenstuff:blocks/wrought_iron",
+        "candle": "gardenstuff:blocks/candelabra_candle",
+        "cross": "gardenstuff:blocks/candelabra_cross",
+        "arm": "gardenstuff:blocks/candelabra_arm"
+    },
+    "elements": [
+        {
+            "from": [ 6, 2, 0 ],
+            "to": [ 10, 7, 1 ],
+            "faces": {
+                "up":   { "texture": "#metal" },
+                "down":   { "texture": "#metal" },
+                "north":   { "texture": "#metal" },
+                "south":   { "texture": "#metal" },
+                "west":   { "texture": "#metal" },
+                "east":   { "texture": "#metal" }
+            },
+            "__comment": "Wall plate"
+        }, {
+            "from": [ 1, 0.01, 3.5 ],
+            "to": [ 8, 16, 3.5 ],
+            "rotation": { "origin": [ 4.5, 6, 3.5 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 8, 16 ], "texture": "#arm" },
+                "south": { "uv": [ 8, 0, 0, 16 ], "texture": "#arm" }
+            },
+            "__comment": "Arm left"
+        }, {
+            "from": [ 2.5, 7.01, 2.5 ],
+            "to": [ 5.5, 13, 5.5 ],
+            "shade": false,
+            "faces": {
+                "up":    { "uv": [ 4, 11, 7, 14 ], "texture": "#candle" },
+                "north": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "south": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "west":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" },
+                "east":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" }
+            },
+            "__comment": "Pillar candle left"
+        }, {
+            "from": [ 1.75, 7, 1.75 ],
+            "to": [ 6.25, 7, 6.25 ],
+            "faces": {
+                "up":   { "texture": "#metal" },
+                "down": { "texture": "#metal" }
+            },
+            "__comment": "Holder plate left"
+        }, {
+            "from": [ 1.75, 6, 1.75 ],
+            "to": [ 6.25, 7, 6.25 ],
+            "faces": {
+                "north": { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "east":  { "texture": "#metal" }
+            },
+            "__comment": "Holder plate walls left"
+        }, {
+            "from": [ -3, 5, 4 ],
+            "to": [ 11, 15, 4 ],
+            "rotation": { "origin": [ 4, 6, 4 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 10 ], "texture": "#cross" },
+                "south": { "uv": [ 16, 0, 0, 10 ], "texture": "#cross" }
+            },
+            "__comment": "Cross left"
+        }, {
+            "from": [ 4, 5, -3 ],
+            "to": [ 4, 15, 11 ],
+            "rotation": { "origin": [ 4, 6, 4 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 10 ], "texture": "#cross" },
+                "east": { "uv": [ 16, 0, 0, 10 ], "texture": "#cross" }
+            },
+            "__comment": "Cross left"
+        }, {
+            "from": [ 8, 0.01, 3.5 ],
+            "to": [ 15, 16, 3.5 ],
+            "rotation": { "origin": [ 11.5, 6, 3.5 ], "axis": "y", "angle": -45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 8, 0, 0, 16 ], "texture": "#arm" },
+                "south": { "uv": [ 0, 0, 8, 16 ], "texture": "#arm" }
+            },
+            "__comment": "Arm right"
+        }, {
+            "from": [ 10.5, 7.01, 2.5 ],
+            "to": [ 13.5, 13, 5.5 ],
+            "shade": false,
+            "faces": {
+                "up":    { "uv": [ 4, 11, 7, 14 ], "texture": "#candle" },
+                "north": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "south": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "west":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" },
+                "east":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" }
+            },
+            "__comment": "Pillar candle right"
+        }, {
+            "from": [ 9.75, 7, 1.75 ],
+            "to": [ 14.25, 7, 6.25 ],
+            "faces": {
+                "up":   { "texture": "#metal" },
+                "down": { "texture": "#metal" }
+            },
+            "__comment": "Holder plate right"
+        }, {
+            "from": [ 9.75, 6, 1.75 ],
+            "to": [ 14.25, 7, 6.25 ],
+            "faces": {
+                "north": { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "east":  { "texture": "#metal" }
+            },
+            "__comment": "Holder plate walls right"
+        }, {
+            "from": [ 5, 5, 4 ],
+            "to": [ 19, 15, 4 ],
+            "rotation": { "origin": [ 12, 6, 4 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 10 ], "texture": "#cross" },
+                "south": { "uv": [ 16, 0, 0, 10 ], "texture": "#cross" }
+            },
+            "__comment": "Cross right"
+        }, {
+            "from": [ 12, 5, -3 ],
+            "to": [ 12, 15, 11 ],
+            "rotation": { "origin": [ 12, 6, 4 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 10 ], "texture": "#cross" },
+                "east": { "uv": [ 16, 0, 0, 10 ], "texture": "#cross" }
+            },
+            "__comment": "Cross right"
+        }
+    ]
+}

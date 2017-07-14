@@ -1,0 +1,84 @@
+{
+    "textures": {
+        "particle": "gardenstuff:blocks/wrought_iron",
+        "metal": "gardenstuff:blocks/wrought_iron",
+        "arm": "gardenstuff:blocks/candelabra_arm",
+        "candle": "gardenstuff:blocks/candelabra_candle",
+        "cross": "gardenstuff:blocks/candelabra_cross"
+    },
+    "ambientocclusion": false,
+    "elements": [
+        {
+            "from": [ 6, 2, 0 ],
+            "to": [ 10, 7, 1 ],
+            "faces": {
+                "up":   { "texture": "#metal" },
+                "down":   { "texture": "#metal" },
+                "north":   { "texture": "#metal" },
+                "south":   { "texture": "#metal" },
+                "west":   { "texture": "#metal" },
+                "east":   { "texture": "#metal" }
+            },
+            "__comment": "Wall plate"
+        }, {
+            "from": [ 8, 0, 0 ],
+            "to": [ 8, 16, 8 ],
+            "shade": false,
+            "faces": {
+                "west": { "texture": "#arm" },
+                "east": { "texture": "#arm" }
+            },
+            "__comment": "Arm"
+        }, {
+            "from": [ 6.5, 7.01, 3 ],
+            "to": [ 9.5, 13, 6 ],
+            "shade": false,
+            "faces": {
+                "up":    { "uv": [ 4, 11, 7, 14 ], "texture": "#candle" },
+                "north": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "south": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "west":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" },
+                "east":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" }
+            },
+            "__comment": "Pillar candle"
+        }, {
+            "from": [ 5.75, 7, 2.25 ],
+            "to": [ 10.25, 7, 6.75 ],
+            "faces": {
+                "up":   { "texture": "#metal" },
+                "down": { "texture": "#metal" }
+            },
+            "__comment": "Holder plate"
+        }, {
+            "from": [ 5.75, 6, 2.25 ],
+            "to": [ 10.25, 7, 6.75 ],
+            "faces": {
+                "north": { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "east":  { "texture": "#metal" }
+            },
+            "__comment": "Holder plate walls"
+        }, {
+            "from": [ 1, 5, 4.5 ],
+            "to": [ 15, 15, 4.5 ],
+            "rotation": { "origin": [ 8, 6, 4.5 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 10 ], "texture": "#cross" },
+                "south": { "uv": [ 16, 0, 0, 10 ], "texture": "#cross" }
+            },
+            "__comment": "Cross"
+        }, {
+            "from": [ 8, 5, -2.5 ],
+            "to": [ 8, 15, 11.5 ],
+            "rotation": { "origin": [ 8, 6, 4.5 ], "axis": "y", "angle": 45, "rescale": true },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 10 ], "texture": "#cross" },
+                "east": { "uv": [ 16, 0, 0, 10 ], "texture": "#cross" }
+            },
+            "__comment": "Cross"
+        }
+    ]
+}

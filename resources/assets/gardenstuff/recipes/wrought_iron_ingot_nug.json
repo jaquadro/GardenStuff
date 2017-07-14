@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "key": {
+        "X": { "item": "gardenstuff:material", "data": 3 }
+    },
+    "result": { "item": "gardenstuff:material", "data": 4 }
+}

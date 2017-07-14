@@ -1,0 +1,55 @@
+{
+    "multipart": [
+        {
+            "apply": { "model": "gardenstuff:fence/wrought_iron_post" }
+        }, {
+            "when": { "north": "true", "up": "false", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_topbottom", "uvlock": false }
+        }, {
+            "when": { "east": "true", "up": "false", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_topbottom", "y": 90, "uvlock": false }
+        }, {
+            "when": { "south": "true", "up": "false", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_topbottom", "y": 180, "uvlock": false }
+        }, {
+            "when": { "west": "true", "up": "false", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_topbottom", "y": 270, "uvlock": false }
+        }, {
+            "when": { "north": "true", "up": "true", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_bottom", "uvlock": false }
+        }, {
+            "when": { "east": "true", "up": "true", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_bottom", "y": 90, "uvlock": false }
+        }, {
+            "when": { "south": "true", "up": "true", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_bottom", "y": 180, "uvlock": false }
+        }, {
+            "when": { "west": "true", "up": "true", "down": "false" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_bottom", "y": 270, "uvlock": false }
+        }, {
+            "when": { "north": "true", "up": "false", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_top", "uvlock": false }
+        }, {
+            "when": { "east": "true", "up": "false", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_top", "y": 90, "uvlock": false }
+        }, {
+            "when": { "south": "true", "up": "false", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_top", "y": 180, "uvlock": false }
+        }, {
+            "when": { "west": "true", "up": "false", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3_top", "y": 270, "uvlock": false }
+        }, {
+            "when": { "north": "true", "up": "true", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3", "uvlock": false }
+        }, {
+            "when": { "east": "true", "up": "true", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3", "y": 90, "uvlock": false }
+        }, {
+            "when": { "south": "true", "up": "true", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3", "y": 180, "uvlock": false }
+        }, {
+            "when": { "west": "true", "up": "true", "down": "true" },
+            "apply": { "model": "gardenstuff:fence/wrought_iron_side_3", "y": 270, "uvlock": false }
+        }
+    ]
+}

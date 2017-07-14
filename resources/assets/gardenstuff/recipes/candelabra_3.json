@@ -1,0 +1,14 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "CCC",
+        "NNN",
+        " I "
+    ],
+    "key": {
+        "C": { "item": "gardenstuff:candelabra", "data": 0 },
+        "N": { "ore": "nuggetWroughtIron", "type": "forge:ore_dict" },
+        "I": { "ore": "ingotWroughtIron", "type": "forge:ore_dict" }
+    },
+    "result": { "item": "gardenstuff:candelabra", "data": 3, "count": 4 }
+}

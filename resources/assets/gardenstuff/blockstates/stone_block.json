@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=charcoal": { "model": "gardenstuff:charcoal_block" }
+    }
+}

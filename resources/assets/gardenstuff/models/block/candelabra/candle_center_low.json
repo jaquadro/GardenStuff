@@ -1,0 +1,56 @@
+{
+    "textures": {
+        "particle": "gardenstuff:blocks/wrought_iron",
+        "metal": "gardenstuff:blocks/wrought_iron",
+        "candle": "gardenstuff:blocks/candelabra_candle",
+        "holder": "gardenstuff:blocks/candelabra_holder_side"
+    },
+    "ambientocclusion": false,
+    "elements": [
+        {
+            "from": [ 6.5, 2, 6.5 ],
+            "to": [ 9.5, 8, 9.5 ],
+            "shade": false,
+            "faces": {
+                "up":    { "uv": [ 4, 11, 7, 14 ], "texture": "#candle" },
+                "north": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "south": { "uv": [ 4, 3, 7, 9 ], "texture": "#candle" },
+                "west":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" },
+                "east":  { "uv": [ 9, 3, 12, 9 ], "texture": "#candle" }
+            },
+            "__comment": "Pillar candle"
+        }, {
+            "from": [ 6, 1, 6 ],
+            "to": [ 10, 2, 10 ],
+            "faces": {
+                "up":   { "texture": "#metal" },
+                "down": { "texture": "#metal" },
+                "north": { "texture": "#metal" },
+                "south": { "texture": "#metal" },
+                "west":  { "texture": "#metal" },
+                "east":  { "texture": "#metal" }
+            },
+            "__comment": "Holder plate walls"
+        }, {
+            "from": [ 7.5, 8, 8 ],
+            "to": [ 8.5, 10, 8 ],
+            "rotation": { "origin": [ 8, 6, 8 ], "axis": "y", "angle": 45 },
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 6, 1, 5, 3 ], "texture": "#candle" },
+                "south": { "uv": [ 5, 1, 6, 3 ], "texture": "#candle" }
+            },
+            "__comment": "Flame cross"
+        }, {
+            "from": [ 8, 8, 7.5 ],
+            "to": [ 8, 10, 8.5 ],
+            "rotation": { "origin": [ 8, 6, 8 ], "axis": "y", "angle": 45 },
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 5, 1, 6, 3 ], "texture": "#candle" },
+                "east": { "uv": [ 6, 1, 5, 3 ], "texture": "#candle" }
+            },
+            "__comment": "Flame cross"
+        }
+    ]
+}

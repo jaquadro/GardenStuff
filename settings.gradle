@@ -1,0 +1,4 @@
+rootProject.name = "GardenStuff-${minecraft_base_version}"
+
+include '..:Chameleon'
+project(':..:Chameleon').name = "Chameleon-${minecraft_base_version}"

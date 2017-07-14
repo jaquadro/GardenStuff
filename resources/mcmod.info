@@ -1,0 +1,15 @@
+[
+{
+	"modid": "gardenstuff",
+	"name": "Garden Stuff",
+	"description": "Decorative blocks suitable for gardens, outdoors, old industry, etc.",
+	"version": "$version",
+	"credits": "By jaquadro",
+	"logoFile": "",
+	"url": "http://www.jaquadro.com/",
+	"authorList": [ "jaquadro" ],
+	"requiredMods": [ "forge", "chameleon" ],
+	"dependencies": [ "chameleon" ],
+	"useDependencyInformation": true
+}
+]

@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "gardenstuff:stone_block", "data": 0 }
+    ],
+    "result": { "item": "minecraft:coal", "data": 1, "count": 9 }
+}

@@ -1,0 +1,26 @@
+{
+    "multipart": [
+        {
+            "when": { "mount": "ceiling" },
+            "apply": { "model": "gardenstuff:candelabra/hoop" }
+        }, {
+            "when": { "mount": "floor|pike" },
+            "apply": { "model": "gardenstuff:candelabra/candle_center" }
+        }, {
+            "when": { "mount": "ceiling" },
+            "apply": { "model": "gardenstuff:candelabra/candle_center_low" }
+        }, {
+            "when": { "mount": "wall", "facing": "north" },
+            "apply": { "model": "gardenstuff:candelabra/candle_wall_1", "y": 180 }
+        }, {
+            "when": { "mount": "wall", "facing": "south" },
+            "apply": { "model": "gardenstuff:candelabra/candle_wall_1" }
+        }, {
+            "when": { "mount": "wall", "facing": "east" },
+            "apply": { "model": "gardenstuff:candelabra/candle_wall_1", "y": 270 }
+        }, {
+            "when": { "mount": "wall", "facing": "west" },
+            "apply": { "model": "gardenstuff:candelabra/candle_wall_1", "y": 90 }
+        }
+    ]
+}

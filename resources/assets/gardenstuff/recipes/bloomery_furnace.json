@@ -1,0 +1,13 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "/ /",
+        "/X/",
+        "///"
+    ],
+    "key": {
+        "/": { "ore": "ingotBrick", "type": "forge:ore_dict" },
+        "X": { "item": "minecraft:furnace" }
+    },
+    "result": { "item": "gardenstuff:bloomery_furnace" }
+}

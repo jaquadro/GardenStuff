@@ -1,0 +1,6 @@
+{
+    "parent": "gardenstuff:block/fence/metal_post",
+    "textures": {
+        "texture": "gardenstuff:blocks/wrought_iron_fence_0"
+    }
+}

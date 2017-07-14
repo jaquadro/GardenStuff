@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=wrought_iron": { "model": "gardenstuff:wrought_iron_block" }
+    }
+}

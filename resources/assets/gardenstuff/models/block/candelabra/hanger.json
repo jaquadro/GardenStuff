@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "gardenstuff:blocks/candelabra_hang"
+    }
+}

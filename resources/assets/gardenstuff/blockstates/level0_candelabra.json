@@ -1,0 +1,7 @@
+{
+    "multipart": [
+        {
+            "apply": { "model": "gardenstuff:candelabra/candle" }
+        }
+    ]
+}

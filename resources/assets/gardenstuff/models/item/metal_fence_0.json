@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "gardenstuff:blocks/wrought_iron_fence_0_tb"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "gardenstuff:block/fence/metal_side",
+    "textures": {
+        "texture": "gardenstuff:blocks/wrought_iron_fence_1",
+        "top": "gardenstuff:blocks/wrought_iron_fence_1_tb",
+        "bottom": "gardenstuff:blocks/wrought_iron_fence_1"
+    }
+}

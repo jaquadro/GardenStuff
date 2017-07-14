@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "gardenstuff:blocks/bloomery_furnace_top",
+        "front": "gardenstuff:blocks/bloomery_furnace_front_on",
+        "side": "gardenstuff:blocks/bloomery_furnace_side",
+        "down": "gardenstuff:blocks/bloomery_furnace_bottom"
+    }
+}

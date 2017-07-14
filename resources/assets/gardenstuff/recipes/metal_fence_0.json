@@ -1,0 +1,11 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        "///",
+        "///"
+    ],
+    "key": {
+        "/": { "ore": "ingotWroughtIron", "type": "forge:ore_dict" }
+    },
+    "result": { "item": "gardenstuff:metal_fence", "data": 0, "count": 16 }
+}
