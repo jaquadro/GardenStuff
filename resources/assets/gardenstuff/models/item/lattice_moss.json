@@ -1,0 +1,6 @@
+{
+    "parent": "gardenstuff:item/lattice",
+    "textures": {
+        "texture": "gardenstuff:blocks/lattice_moss"
+    }
+}

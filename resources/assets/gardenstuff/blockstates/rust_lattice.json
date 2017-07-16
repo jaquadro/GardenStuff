@@ -1,0 +1,25 @@
+{
+    "multipart": [
+        {
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_center" }
+        }, {
+            "when": { "north": "side|lattice|ext" },
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_side", "uvlock": true }
+        }, {
+            "when": { "east": "side|lattice|ext" },
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_side", "y": 90, "uvlock": true }
+        }, {
+            "when": { "south": "side|lattice|ext" },
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_side", "y": 180, "uvlock": true }
+        }, {
+            "when": { "west": "side|lattice|ext" },
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_side", "y": 270, "uvlock": true }
+        }, {
+            "when": { "up": "side|lattice|ext" },
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_side", "x": 270, "uvlock": true }
+        }, {
+            "when": { "down": "side|lattice|ext" },
+            "apply": { "model": "gardenstuff:lattice/rust_lattice_side", "x": 90, "uvlock": true }
+        }
+    ]
+}

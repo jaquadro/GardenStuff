@@ -1,0 +1,17 @@
+{
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [
+        {   "from": [ 7, 7, -8 ],
+            "to": [ 9, 9, 9 ],
+            "faces": {
+                "down":  { "texture": "#texture" },
+                "up":    { "texture": "#texture" },
+                "west":  { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "extended length side arm"
+        }
+    ]
+}

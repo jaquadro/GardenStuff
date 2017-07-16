@@ -103,6 +103,7 @@ public class BlockFence extends Block
     }
 
     @Override
+    @SuppressWarnings("deprecation")
     public void addCollisionBoxToList (IBlockState state, World worldIn, BlockPos pos, AxisAlignedBB entityBox, List<AxisAlignedBB> collidingBoxes, @Nullable Entity entityIn, boolean p_185477_7_) {
         state = state.getActualState(worldIn, pos);
         addCollisionBoxToList(pos, entityBox, collidingBoxes, PILLAR_AABB);
@@ -118,6 +119,7 @@ public class BlockFence extends Block
     }
 
     @Override
+    @SuppressWarnings("deprecation")
     public AxisAlignedBB getBoundingBox (IBlockState state, IBlockAccess source, BlockPos pos) {
         state = getActualState(state, source, pos);
         return BOUNDING_BOXES[getBoundBoxIndex(state)];

@@ -16,6 +16,7 @@ item.gardenstuff.material.candelilla.name=Candelilla
 item.gardenstuff.material.wax.name=Wax
 
 # Blocks
+tile.gardenstuff.bloomery_furnace.name=Bloomery Furnace
 tile.gardenstuff.candelabra.level0.name=Candle
 tile.gardenstuff.candelabra.level1.name=Candelabra
 tile.gardenstuff.candelabra.level2.name=Candelabra
@@ -25,5 +26,9 @@ tile.gardenstuff.metal_fence.0.name=Wrought Iron Fence
 tile.gardenstuff.metal_fence.1.name=Wrought Iron Fence
 tile.gardenstuff.metal_fence.2.name=Wrought Iron Fence
 tile.gardenstuff.metal_fence.3.name=Wrought Iron Fence
+tile.gardenstuff.metal_lattice.iron.name=Iron Lattice
+tile.gardenstuff.metal_lattice.wrought_iron.name=Wrought Iron Lattice
+tile.gardenstuff.metal_lattice.rust.name=Rusty Lattice
+tile.gardenstuff.metal_lattice.aged.name=Aged Lattice
+tile.gardenstuff.metal_lattice.moss.name=Mossy Lattice
 tile.gardenstuff.stone_block.charcoal.name=Block of Charcoal
-tile.gardenstuff.bloomery_furnace.name=Bloomery Furnace

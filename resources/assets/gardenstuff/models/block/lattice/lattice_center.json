@@ -1,0 +1,19 @@
+{
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [
+        {   "from": [ 7, 7, 7 ],
+            "to": [ 9, 9, 9 ],
+            "faces": {
+                "down":  { "texture": "#texture" },
+                "up":    { "texture": "#texture" },
+                "north": { "texture": "#texture" },
+                "west":  { "texture": "#texture" },
+                "south": { "texture": "#texture" },
+                "east":  { "texture": "#texture" }
+            },
+            "__comment": "center cube"
+        }
+    ]
+}

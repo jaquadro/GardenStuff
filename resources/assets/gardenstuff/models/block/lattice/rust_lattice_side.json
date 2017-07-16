@@ -1,0 +1,6 @@
+{
+    "parent": "gardenstuff:block/lattice/lattice_side",
+    "textures": {
+        "texture": "gardenstuff:blocks/lattice_rust"
+    }
+}

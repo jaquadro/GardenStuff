@@ -1,0 +1,6 @@
+{
+    "parent": "gardenstuff:block/lattice/lattice_ext",
+    "textures": {
+        "texture": "gardenstuff:blocks/lattice_iron"
+    }
+}

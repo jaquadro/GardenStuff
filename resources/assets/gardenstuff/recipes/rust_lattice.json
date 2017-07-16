@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        "/W/",
+        "///"
+    ],
+    "key": {
+        "/": { "item": "gardenstuff:metal_lattice", "data": 0 },
+        "W": { "item": "minecraft:water_bucket" }
+    },
+    "result": { "item": "gardenstuff:metal_lattice", "data": 2, "count": 8 }
+}

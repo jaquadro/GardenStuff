@@ -128,7 +128,7 @@ artifacts {
 }
 
 publishing.publications {
-    StorageDrawers(MavenPublication) {
+    GardenStuff(MavenPublication) {
         groupId = project.group
         artifactId = project.archivesBaseName
         version = project.version

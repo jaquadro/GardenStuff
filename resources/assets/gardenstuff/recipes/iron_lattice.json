@@ -1,0 +1,13 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+        " / ",
+        "/X/",
+        " / "
+    ],
+    "key": {
+        "/": { "ore": "ingotIron", "type": "forge:ore_dict" },
+        "X": { "ore": "ingotWroughtIron", "type": "forge:ore_dict" }
+    },
+    "result": { "item": "gardenstuff:metal_lattice", "data": 0, "count": 16 }
+}
