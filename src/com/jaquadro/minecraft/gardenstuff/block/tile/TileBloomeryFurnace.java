@@ -135,7 +135,7 @@ public class TileBloomeryFurnace extends ChamLockableTileEntity implements ITick
         if (furnaceItemStacks.get(SLOT_OUTPUT).isEmpty())
             furnaceItemStacks.set(SLOT_OUTPUT, itemOutput.copy());
         else if (furnaceItemStacks.get(SLOT_OUTPUT).getItem() == itemOutput.getItem())
-            furnaceItemStacks.get(SLOT_OUTPUT).shrink(itemOutput.getCount());
+            furnaceItemStacks.get(SLOT_OUTPUT).grow(1);
 
         furnaceItemStacks.get(SLOT_PRIMARY).shrink(1);
         furnaceItemStacks.get(SLOT_SECONDARY).shrink(1);
