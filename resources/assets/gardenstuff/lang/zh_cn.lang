@@ -1,0 +1,34 @@
+# Creative Tabs
+itemGroup.gardenstuff=园林组合
+
+# Containers
+container.gardenstuff.bloomery_furnace=锻铁炉
+
+# Items
+item.gardenstuff.candelilla_seeds.name=烛木种子
+item.gardenstuff.material.iron_nugget.name=铁粒
+item.gardenstuff.material.iron_link.name=铁链节
+item.gardenstuff.material.gold_link.name=金链节
+item.gardenstuff.material.wrought_iron_nugget.name=锻铁粒
+item.gardenstuff.material.wrought_iron_ingot.name=锻铁锭
+item.gardenstuff.material.wrought_iron_link.name=锻铁链节
+item.gardenstuff.material.candelilla.name=烛木
+item.gardenstuff.material.wax.name=蜡
+
+# Blocks
+tile.gardenstuff.bloomery_furnace.name=锻铁炉
+tile.gardenstuff.candelabra.level0.name=蜡烛
+tile.gardenstuff.candelabra.level1.name=烛台
+tile.gardenstuff.candelabra.level2.name=烛台
+tile.gardenstuff.candelabra.level3.name=烛台
+tile.gardenstuff.metal_block.wroughtIron.name=锻铁块
+tile.gardenstuff.metal_fence.0.name=锻铁栅栏
+tile.gardenstuff.metal_fence.1.name=锻铁栅栏
+tile.gardenstuff.metal_fence.2.name=锻铁栅栏
+tile.gardenstuff.metal_fence.3.name=锻铁栅栏
+tile.gardenstuff.metal_lattice.iron.name=铁格架
+tile.gardenstuff.metal_lattice.wrought_iron.name=锻铁格架
+tile.gardenstuff.metal_lattice.rust.name=生锈格架
+tile.gardenstuff.metal_lattice.aged.name=风蚀格架
+tile.gardenstuff.metal_lattice.moss.name=青苔格架
+tile.gardenstuff.stone_block.charcoal.name=木炭块
